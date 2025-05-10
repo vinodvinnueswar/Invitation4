@@ -1,0 +1,307 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+/* Home Section */
+.Home_Section{
+    height: 100%;
+    width: 50vw;
+    box-shadow: 2px 2px 9px 9px black;
+}
+
+
+/* Intro Page */
+.Intro_Container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.floral{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 520px;
+}
+.floral img{
+    height: 370px;
+    width: 350px;
+    margin-top:95px;
+}
+.floral1{
+    padding-left: 450px;
+    margin-top: -350px;
+    
+}
+.floral1 img{
+    height: 370px;
+    width: 350px;
+    margin-top: -30px;
+}
+.Intro_Page{
+    height: 100%;
+    width: 50%;
+}
+.Intro_Page img{
+    margin-top: -20px;
+    height: 100vh;
+    width: 200%;
+}
+.Br_Gr{
+    margin-top: -580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Br_Gr img{
+    margin-top: -40px;
+    height: 400px;
+    width: 220px;
+}
+.names {
+    margin-top: -700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.names h4{
+    margin-top: 50px;
+    font-size: 17px;
+}
+.names p{
+    font-size: 25px;
+}
+.floral10{
+    margin-top: -530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.floral10 img{
+    margin-top: 80px;
+    height: 560px;
+    width: 560px;
+    padding-left: 15px;
+}
+.Border{
+ height: 100vh;
+ margin-top: -789px;
+}
+.Border img{
+    margin-top: -40px;
+    height: 200px;
+    width: 720px;
+}
+
+/* Bride */
+.Bride_Container{
+    margin-top: -50px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f4ffad;
+background: radial-gradient(circle, rgba(244, 255, 173, 1) 0%, rgba(245, 203, 76, 1) 47%, rgba(242, 226, 167, 1) 36%);
+}
+.Bride_Container img{
+    margin-top: 20px;
+    height: 500px;
+    width: 500px;
+}
+.Bride_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Bride_page h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.Bride_page img{
+    margin-top: 120px;
+    height: 300px;
+    width: 280px;
+    border-radius: 150px;
+}
+.Bride_page .C-1{
+    margin-top: -330px;
+    height: 400px;
+    width: 350px;
+
+}
+.Bride_page p{
+    margin-top: -10px;
+    padding: 80px;
+    font-size: 20px;
+    padding-right: 10px;
+
+
+}
+
+/* Quatation */
+.Quation{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f4ffad;
+background: radial-gradient(circle, rgba(244, 255, 173, 1) 0%, rgba(255, 255, 3, 0.101) 47%, rgba(242, 226, 167, 1) 36%);
+}
+.Quation p{
+    margin-top: 50px;
+    padding: 50px;
+    color: wheat;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 1px 1px 2px 4px rgb(141, 83, 2) ;
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(173, 102, 2, 1) 0%, rgba(224, 137, 13, 1) 100%);
+}
+.Quation img{
+    margin-top: -140px;
+    height: 60px;
+    width: 200px;
+}
+
+
+/* Video Container */
+.videos-Container{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FDBB2D;
+background: linear-gradient(0deg, rgba(253, 187, 45, 1) 0%, rgba(34, 192, 195, 1) 100%);
+}
+.videos-Container h3{
+    margin-top: 50px;  
+    font-size: 25px;
+}
+.Video iframe{
+    margin-top: 30px;
+    height: 35vh;
+    width: 35vw;
+}
+.videos-Container img{
+    height: 200px;
+    width: 250px;
+}
+.videos-Container h3{
+    margin-top: 60px;
+    font-size: 30px;
+    margin-bottom: -40px;
+}
+
+/* location */
+.Location_Container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #22C0C3;
+background: linear-gradient(0deg, rgba(34, 192, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.Location_Container img{
+    height: 120px;
+    width: 250px;
+}
+.Location_Container h3{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: -50px;
+}
+.Add-Location {
+    margin-top: 30px;
+    height: 480px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(134, 237, 83, 1) 100%);
+}
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 70%;
+    border-radius: 5px;
+    background: #ffc629;
+background: linear-gradient(0deg, rgba(255, 198, 41, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+.Button a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* gallery Container */
+.Gallery_Container{
+    margin-top: -10px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #22C1C3;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 94%);
+}
+.Gallery{
+    margin-top: 40px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+     -webkit-column-width:20% ;
+     -moz-column-width: 13%;
+    column-width: 13%;
+    padding: 0 12px;
+}
+.Gallery_Container img{
+    height: 200px;
+    width: 250px;
+}
+.Gallery_Container h4{
+    margin-top: 60px;
+    font-size: 30px;
+    margin-bottom: -40px;
+}
+
+.images img{
+    height: 200px;
+    width: 200px;
+    border: 4px solid white;
+}
+.images .active img{
+    border: 5px solid gold;
+}
