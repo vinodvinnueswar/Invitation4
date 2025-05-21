@@ -7,6 +7,7 @@ import Video from '../components/Video'
 import Location from '../components/Location'
 import Gallery from '../components/Gallery'
 import Border5 from '../Images/Border/Border5.png'
+import Contacts from '../components/Contacts'
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
         <Gallery/>
         <Video/>
         <Location/>
+        <Contacts/>
       
     </div>
   )
