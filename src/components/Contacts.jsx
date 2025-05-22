@@ -1,5 +1,5 @@
 import React from 'react'
-import facebook from '../images/Social_network/facebook.png'
+import facebook from '../images/Social_network/Facebook.png'
 import Instagram from '../images/Social_network/Instagram.png'
 import whatsapp from '../images/Social_network/Whatsapp1.png'
 
