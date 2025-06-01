@@ -810,7 +810,7 @@ color: wheat;
 
 /* 375px responsive screens */
 
-@media (min-width : 360px) and (max-width: 400px)
+@media (min-width : 360px) and (max-width: 380px)
 {
       /* Home Section */
       .Home_Section{
@@ -1216,6 +1216,417 @@ background: radial-gradient(circle, rgba(166, 127, 22, 1) 25%, rgba(253, 187, 45
     }
 
 }
+
+/* 380 px to 400px */
+
+
+@media (min-width : 380px) and (max-width: 400px)
+{
+      /* Home Section */
+      .Home_Section{
+        height: 100%;
+        width: 100vw;
+        box-shadow: 2px 2px 9px 9px black;
+        overflow: hidden;
+    }
+    
+    
+    /* Intro Page */
+    .Intro_Container{
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+    
+    }
+    .floral{
+        margin-top: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 200px;
+    }
+    .floral img{
+        height: 180px;
+        width: 180px;
+    }
+    .floral1{
+        margin-top: -80px;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        padding-left: 0px;
+        margin-left: 200px;
+        
+        
+    }
+    .floral1 img{
+        margin-top: -100px;
+        height:180px;
+        width: 180px;
+    }
+    .Intro_Page{
+        height: 100%;
+        width: 50%;
+    }
+    .Intro_Page img{
+        margin-top: -20px;
+        height: 100vh;
+        width: 200%;
+    }
+    .Br_Gr{
+        margin-top: -450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Br_Gr img{
+        margin-top: -40px;
+        height: 280px;
+        width: 180px;
+    }
+    .names {
+        margin-top: -600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        font-size: 20px;
+        padding-left: 25px;
+    }
+    .names h4{
+        margin-top: 50px;
+        font-size: 17px;
+    }
+    .names p{
+        font-size: 22px;
+    }
+    .floral10{
+        margin-top: -600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .floral10 img{
+        margin-top: 300px;
+        height: 380px;
+        width: 380px;
+        padding-left: 15px;
+    }
+    .Border{
+     height: 100vh;
+     margin-top: -600px;
+    }
+    .Border img{
+        margin-top: 0px;
+        height: 150px;
+        width: 400px;
+    }
+    
+    /* Bride */
+    .Bride_Container{
+        margin-top: -20px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #a67f16;
+background: radial-gradient(circle, rgba(166, 127, 22, 1) 25%, rgba(253, 187, 45, 1) 32%, rgba(255, 176, 5, 1) 29%);
+        
+    }
+    .Bride_Container img{
+        margin-top: 100px;
+        height: 200px;
+        width: 200px;
+    }
+    .Bride_page{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Bride_page h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 30px;
+        margin-bottom: -50px;
+    }
+    .Bride_page img{
+        margin-top: 100px;
+        height: 300px;
+        width: 280px;
+        border-radius: 150px;
+    }
+    .Bride_page .C-1{
+        margin-top: -330px;
+        height: 400px;
+        width: 350px;
+    
+    }
+
+    .Bride_page p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 30px;
+    
+    }
+    .Bride_page .FontSize{
+        margin-top: -10px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: -30px;
+    }
+    
+    /* Quatation */
+    .Quation{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #f4ffad;
+    background: radial-gradient(circle, rgba(244, 255, 173, 1) 0%, rgba(255, 255, 3, 0.101) 47%, rgba(242, 226, 167, 1) 36%);
+    }
+    .Quation p{
+        margin-top: 50px;
+        padding: 20px;
+        color: wheat;
+        border-radius: 8px;
+        font-size: 15px;
+        box-shadow: 1px 1px 2px 4px rgb(141, 83, 2) ;
+        background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(173, 102, 2, 1) 0%, rgba(224, 137, 13, 1) 100%);
+    }
+    .Quation img{
+        margin-top: -140px;
+        height: 60px;
+        width: 200px;
+    }
+    
+    
+    /* Video Container */
+    .videos-Container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #FDBB2D;
+    background: linear-gradient(0deg, rgba(253, 187, 45, 1) 0%, rgba(34, 192, 195, 1) 100%);
+    }
+    .videos-Container h3{
+        margin-top: 100px;  
+        font-size: 18px;
+    }
+    /* .Video iframe{
+        margin-top: 30px;
+        height: 30vh;
+        width: 90vw;
+    } */
+     
+    .videos-Container img{
+        margin-top: 30px;
+        height: 80px;
+        width: 170px;
+    }
+    .videos-Container h3{
+        margin-top: 60px;
+        font-size: 30px;
+        margin-bottom: -50px;
+    }
+    .Video{
+        margin-top: 40px;
+        width: 100%;
+    }
+    
+    /* location */
+    .Location_Container{
+        margin-bottom: 50px;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #22C0C3;
+    background: linear-gradient(0deg, rgba(34, 192, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    }
+    
+    .Location_Container img{
+        margin-top: 10px;
+        height: 80px;
+        width: 170px;
+    }
+    .Location_Container h3{
+        margin-top: -50px;
+        font-size: 26px;
+        margin-bottom: -30px;
+    }
+    .Add-Location {
+        margin-top: 10px;
+        height: 430px;
+        width: 380px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        background: #2A7B9B;
+        background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(134, 237, 83, 1) 100%);
+    }
+    .Add-Location iframe{
+        border: 2px solid yellow;
+        height: 400px;
+        width: 340px;
+    }
+    .Button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 92%;
+        border-radius: 5px;
+        background: #ffc629;
+    background: linear-gradient(0deg, rgba(255, 198, 41, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    }
+    .Button a{
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    
+    /* gallery Container */
+    .Gallery_Container{
+        height: 180vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 94%);
+    }
+    .Gallery{
+        margin-top: 20px;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+         -webkit-column-width:10% ;
+         -moz-column-width: 13%;
+        column-width: 13%;
+        padding: 0 12px;
+    }
+    .Gallery_Container img{
+        height: 100px;
+        width: 170px;
+    }
+    .Gallery_Container h4{
+        margin-top: 60px;
+        font-size: 25px;
+        margin-bottom: -20px;
+    }
+    
+    .images img{
+        height: 220px;
+        width: 150px;
+        border: 4px solid white;
+    }
+    .images .active img{
+        border: 5px solid gold;
+    }
+    
+    /* Contacts */
+    
+    .wish{
+      margin-top: -150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      height: 20px;
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      font-family: "Bodoni Moda", serif;
+      font-optical-sizing: auto;
+    
+    }
+    
+    .social_Share{
+      margin-top: -30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      width: 100%;
+    padding: 50px;
+    font-size: 15px;
+    color: rgb(93, 5, 5);
+    background: #22C0C3;
+    background: linear-gradient(0deg, rgba(34, 192, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    box-shadow: 5px 8px 6px 0px black;
+    }
+    .network{
+      margin-top: 10px;
+      display: flex;
+    
+    }
+    .network img{
+      height: 24px;
+    }
+    .network .whatsapp img{
+      margin-top: -2px;
+      height: 28px;
+    }
+    
+    .details_1{
+      margin-top: -50px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-right: 50px;
+    }
+    .details_1 .p1{
+      margin-top: 110px;
+      font-size: 20px;
+      font-weight: 800px;
+      font-family: "Satisfy", cursive;
+    }
+    .details_1 a{
+      height: 50px;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid rgb(93, 5, 5);
+      border-radius: 5px;
+      color: rgb(93, 5, 5);
+      padding: 10px;
+      text-decoration: none;
+      
+    }
+    .details_1 a:hover{
+    background: rgb(93, 5, 5);
+    color: wheat;
+    
+    }
+
+}
+
   
 @media (min-width : 410px) and (max-width: 768px){
         /* Home Section */
@@ -1625,802 +2036,3 @@ background: radial-gradient(circle, rgba(166, 127, 22, 1) 25%, rgba(253, 187, 45
 }
 
 
-
-/* Small Devices (414px - 920px) */
-
-@media (min-width:768px) and (max-width: 1024px) {
-    *{
-        padding:0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    body{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: beige;
-        
-    }
-    
-    /* Home Section */
-    .Home_Section{
-        height: 100%;
-        width: 100%;
-        box-shadow: 2px 2px 9px 9px black;
-        overflow: hidden;
-    }
-    
-    
-    /* Intro Page */
-    .Intro_Container{
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-
-    
-    }
-    .floral{
-        margin-top: 220px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 200px;
-    }
-    .floral img{
-        height: 180px;
-        width: 180px;
-    }
-    .floral1{
-        margin-top: -80px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 230px;
-        
-    }
-    .floral1 img{
-        margin-top: -100px;
-        height:180px;
-        width: 180px;
-    }
-    .Intro_Page{
-        height: 100%;
-        width: 50%;
-    }
-    .Intro_Page img{
-        margin-top: -20px;
-        height: 100vh;
-        width: 200%;
-    }
-    .Br_Gr{
-        margin-top: -450px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .Br_Gr img{
-        margin-top: -40px;
-        height: 280px;
-        width: 180px;
-    }
-    .names {
-        margin-top: -600px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        font-size: 20px;
-        padding-left: 25px;
-    }
-    .names h4{
-        margin-top: 50px;
-        font-size: 17px;
-    }
-    .names p{
-        font-size: 22px;
-    }
-    .floral10{
-        margin-top: -600px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .floral10 img{
-        margin-top: 300px;
-        height: 380px;
-        width: 380px;
-        padding-left: 15px;
-    }
-    .Border{
-     height: 100vh;
-     margin-top: -600px;
-    }
-    .Border img{
-        margin-top: 0px;
-        height: 150px;
-        width: 680px;
-    }
-    
-    /* Bride */
-    .Bride_Container{
-        margin-top: -20px;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: #a67f16;
-background: radial-gradient(circle, rgba(166, 127, 22, 1) 25%, rgba(253, 187, 45, 1) 32%, rgba(255, 176, 5, 1) 29%);
-        
-    }
-    .Bride_Container img{
-        margin-top: 100px;
-        height: 200px;
-        width: 200px;
-    }
-    .Bride_page{
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .Bride_page h4{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-        font-size: 30px;
-    }
-    .Bride_page img{
-        margin-top: 100px;
-        height: 300px;
-        width: 280px;
-        border-radius: 150px;
-    }
-    .Bride_page .C-1{
-        margin-top: -330px;
-        height: 400px;
-        width: 350px;
-    
-    }
-    .Bride_page p{
-        height: 100%;
-        width: 40%;
-        font-size: 14px;
-        padding: 20px;
-    
-    }
-    
-    /* Quatation */
-    .Quation{
-        height: 10vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #f4ffad;
-    background: radial-gradient(circle, rgba(244, 255, 173, 1) 0%, rgba(255, 255, 3, 0.101) 47%, rgba(242, 226, 167, 1) 36%);
-    }
-    .Quation p{
-        margin-top: 50px;
-        padding: 20px;
-        color: wheat;
-        border-radius: 8px;
-        font-size: 15px;
-        box-shadow: 1px 1px 2px 4px rgb(141, 83, 2) ;
-        background: #833AB4;
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(173, 102, 2, 1) 0%, rgba(224, 137, 13, 1) 100%);
-    }
-    .Quation img{
-        margin-top: -140px;
-        height: 60px;
-        width: 200px;
-    }
-    
-    
-    /* Video Container */
-    .videos-Container{
-        height: 60vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #FDBB2D;
-    background: linear-gradient(0deg, rgba(253, 187, 45, 1) 0%, rgba(34, 192, 195, 1) 100%);
-    }
-    .videos-Container h3{
-        margin-top: 50px;  
-        font-size: 18px;
-    }
-    .Video iframe{
-        margin-top: 30px;
-        height: 30vh;
-        width: 90vw;
-    }
-    .videos-Container img{
-        margin-top: 30px;
-        height: 80px;
-        width: 170px;
-    }
-    .videos-Container h3{
-        margin-top: 60px;
-        font-size: 30px;
-        margin-bottom: -50px;
-    }
-    
-    /* location */
-    .Location_Container{
-        margin-bottom: 50px;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #22C0C3;
-    background: linear-gradient(0deg, rgba(34, 192, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-    }
-    
-    .Location_Container img{
-        margin-top: 10px;
-        height: 80px;
-        width: 170px;
-    }
-    .Location_Container h3{
-        margin-top: 20px;
-        font-size: 22px;
-        margin-bottom: -30px;
-    }
-    .Add-Location {
-        margin-top: 30px;
-        height: 320px;
-        width: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 6px;
-        background: #2A7B9B;
-        background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(134, 237, 83, 1) 100%);
-    }
-    .Button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        width: 37%;
-        border-radius: 5px;
-        background: #ffc629;
-    background: linear-gradient(0deg, rgba(255, 198, 41, 1) 0%, rgba(253, 187, 45, 1) 100%);
-    }
-    .Button a{
-        color: black;
-        text-decoration: none;
-        font-size: 18px;
-    }
-    
-    
-    /* gallery Container */
-    .Gallery_Container{
-        margin-top: -10px;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #22C1C3;
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 94%);
-    }
-    .Gallery{
-        margin-top: 20px;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-         -webkit-column-width:10% ;
-         -moz-column-width: 13%;
-        column-width: 13%;
-        padding: 0 12px;
-    }
-    .Gallery_Container img{
-        height: 80px;
-        width: 170px;
-    }
-    .Gallery_Container h4{
-        margin-top: 60px;
-        font-size: 25px;
-        margin-bottom: -20px;
-    }
-    
-    .images img{
-        height: 120px;
-        width: 120px;
-        border: 4px solid white;
-    }
-    .images .active img{
-        border: 5px solid gold;
-    }
-    
-    /* Contacts */
-    
-    .wish{
-      margin-top: -120px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: white;
-      height: 20px;
-      width: 50%;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 5px;
-      font-family: "Bodoni Moda", serif;
-      font-optical-sizing: auto;
-    
-    }
-    
-    .social_Share{
-      margin-top: -30px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 50vh;
-      width: 100%;
-    padding: 50px;
-    font-size: 15px;
-    color: rgb(93, 5, 5);
-    background: #22C0C3;
-    background: linear-gradient(0deg, rgba(34, 192, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-    box-shadow: 5px 8px 6px 0px black;
-    }
-    .network{
-      margin-top: 10px;
-      display: flex;
-    
-    }
-    .network img{
-      height: 24px;
-    }
-    .network .whatsapp img{
-      margin-top: -2px;
-      height: 28px;
-    }
-    
-    .details_1{
-      margin-top: -50px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-right: 50px;
-    }
-    .details_1 .p1{
-      margin-top: 110px;
-      font-size: 20px;
-      font-weight: 800px;
-      font-family: "Satisfy", cursive;
-    }
-    .details_1 a{
-      height: 50px;
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid rgb(93, 5, 5);
-      border-radius: 5px;
-      color: rgb(93, 5, 5);
-      padding: 10px;
-      text-decoration: none;
-      
-    }
-    .details_1 a:hover{
-    background: rgb(93, 5, 5);
-    color: wheat;
-    
-    }
-
-}
-
-
-  /* Tablets (768px - 1024px) */
-  @media (min-width:768px)and (max-width: 1200px) {
-    *{
-        padding:0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: beige;
-    }
-    
-    /* Home Section */
-    .Home_Section{
-        height: 100%;
-        width: 100%;
-        box-shadow: 2px 2px 9px 9px black;
-    }
-    
-    
-    /* Intro Page */
-    .Intro_Container{
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    
-    }
-    .floral{
-        margin-top: 220px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 200px;
-    }
-    .floral img{
-        height: 180px;
-        width: 180px;
-    }
-    .floral1{
-        margin-top: -80px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 230px;
-        
-    }
-    .floral1 img{
-        margin-top: -100px;
-        height:180px;
-        width: 180px;
-    }
-    .Intro_Page{
-        height: 100%;
-        width: 50%;
-    }
-    .Intro_Page img{
-        margin-top: -20px;
-        height: 100vh;
-        width: 200%;
-    }
-    .Br_Gr{
-        margin-top: -650px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .Br_Gr img{
-        margin-top: -40px;
-        height: 420px;
-        width: 280px;
-    }
-    .names {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: 20px;
-        padding-left: 25px;
-        border: 2pxs solid red;
-    }
-    .names h4{
-        font-size: 17px;
-    }
-    .names p{
-        font-size: 22px;
-    }
-    .floral10{
-        margin-top: -760px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .floral10 img{
-        margin-top: 300px;
-        height: 600px;
-        width: 600px;
-        padding-left: 15px;
-    }
-    .Border{
-     height: 100vh;
-     margin-top: -820px;
-    }
-    .Border img{
-        margin-top: -90px;
-        height: 250px;
-        width: 850px;
-    }
-    
-    /* Bride */
-    .Bride_Container{
-        margin-top: -20px;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: #f4ffad;
-    background: radial-gradient(circle, rgba(244, 255, 173, 1) 0%, rgba(245, 203, 76, 1) 47%, rgba(242, 226, 167, 1) 36%);
-    }
-    .Bride_Container img{
-        margin-top: 40px;
-        height: 200px;
-        width: 200px;
-    }
-    .Bride_page{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .Bride_page h4{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top:150px;
-        font-size: 30px;
-    }
-    .Bride_page img{
-        margin-top: 50px;
-        height: 300px;
-        width: 280px;
-        border-radius: 150px;
-    }
-    .Bride_page .C-1{
-        margin-top: -330px;
-        height: 400px;
-        width: 350px;
-    
-    }
-    .Bride_page p{
-        height: 100%;
-        width: 40%;
-        font-size: 14px;
-        margin-top: 90px;
-        padding: 20px;
-    
-    }
-    
-    /* Quatation */
-    .Quation{
-        height: 10vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #f4ffad;
-    background: radial-gradient(circle, rgba(244, 255, 173, 1) 0%, rgba(255, 255, 3, 0.101) 47%, rgba(242, 226, 167, 1) 36%);
-    }
-    .Quation p{
-        margin-top: 50px;
-        padding: 20px;
-        color: wheat;
-        border-radius: 8px;
-        font-size: 15px;
-        box-shadow: 1px 1px 2px 4px rgb(141, 83, 2) ;
-        background: #833AB4;
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(173, 102, 2, 1) 0%, rgba(224, 137, 13, 1) 100%);
-    }
-    .Quation img{
-        margin-top: -140px;
-        height: 60px;
-        width: 200px;
-    }
-    
-    
-    /* Video Container */
-    .videos-Container{
-        height: 60vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #FDBB2D;
-    background: linear-gradient(0deg, rgba(253, 187, 45, 1) 0%, rgba(34, 192, 195, 1) 100%);
-    }
-    .videos-Container h3{
-        margin-top: 50px;  
-        font-size: 18px;
-    }
-    .Video iframe{
-        margin-top: 30px;
-        height: 30vh;
-        width: 90vw;
-    }
-    .videos-Container img{
-        margin-top: 30px;
-        height: 80px;
-        width: 170px;
-    }
-    .videos-Container h3{
-        margin-top: 60px;
-        font-size: 30px;
-        margin-bottom: -50px;
-    }
-    
-    /* location */
-    .Location_Container{
-        margin-bottom: 50px;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #22C0C3;
-    background: linear-gradient(0deg, rgba(34, 192, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-    }
-    
-    .Location_Container img{
-        margin-top: 10px;
-        height: 80px;
-        width: 170px;
-    }
-    .Location_Container h3{
-        margin-top: 20px;
-        font-size: 22px;
-        margin-bottom: -30px;
-    }
-    .Add-Location {
-        margin-top: 30px;
-        height: 320px;
-        width: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 6px;
-        background: #2A7B9B;
-        background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(134, 237, 83, 1) 100%);
-    }
-    .Button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        width: 37%;
-        border-radius: 5px;
-        background: #ffc629;
-    background: linear-gradient(0deg, rgba(255, 198, 41, 1) 0%, rgba(253, 187, 45, 1) 100%);
-    }
-    .Button a{
-        color: black;
-        text-decoration: none;
-        font-size: 18px;
-    }
-    
-    
-    /* gallery Container */
-    .Gallery_Container{
-        margin-top: -10px;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #22C1C3;
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 94%);
-    }
-    .Gallery{
-        margin-top: 20px;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-         -webkit-column-width:10% ;
-         -moz-column-width: 13%;
-        column-width: 13%;
-        padding: 0 12px;
-    }
-    .Gallery_Container img{
-        height: 80px;
-        width: 170px;
-    }
-    .Gallery_Container h4{
-        margin-top: 60px;
-        font-size: 25px;
-        margin-bottom: -20px;
-    }
-    
-    .images img{
-        height: 110px;
-        width: 110px;
-        border: 4px solid white;
-    }
-    .images .active img{
-        border: 5px solid gold;
-    }
-    
-    /* Contacts */
-    
-    .wish{
-      margin-top: -80px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: white;
-      height: 50vh;
-      width: 50%;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 5px;
-      font-family: "Bodoni Moda", serif;
-      font-optical-sizing: auto;
-    
-    }
-    
-    .social_Share{
-      margin-top: -30px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 50vh;
-      width: 100%;
-    padding: 50px;
-    font-size: 15px;
-    color: rgb(93, 5, 5);
-    background: #22C0C3;
-    background: linear-gradient(0deg, rgba(34, 192, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-    box-shadow: 5px 8px 6px 0px black;
-    }
-    .network{
-      margin-top: 10px;
-      display: flex;
-    
-    }
-    .network img{
-      height: 24px;
-    }
-    .network .whatsapp img{
-      margin-top: -2px;
-      height: 28px;
-    }
-    
-    .details_1{
-      margin-top: -50px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-right: 50px;
-    }
-    .details_1 .p1{
-      margin-top: 110px;
-      font-size: 20px;
-      font-weight: 800px;
-      font-family: "Satisfy", cursive;
-    }
-    .details_1 a{
-      height: 50px;
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid rgb(93, 5, 5);
-      border-radius: 5px;
-      color: rgb(93, 5, 5);
-      padding: 10px;
-      text-decoration: none;
-      
-    }
-    .details_1 a:hover{
-    background: rgb(93, 5, 5);
-    color: wheat;
-    
-    }
-
-}
- 
-  
-  
