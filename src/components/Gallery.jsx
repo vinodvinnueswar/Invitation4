@@ -43,10 +43,11 @@ const Gallery = () => {
 
           
   return (
-    <div className="Gallery_Container">  
+    <div className="Gallery_Container" >  
     <h4>Gallery</h4> 
     <img src={Border4} alt="" />
-    <div className="Gallery">
+    <div className="Gallery" data-aos="fade-up"
+     data-aos-duration="3000">
         {
             data.map((item , index)=>{
                 return(
