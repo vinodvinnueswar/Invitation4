@@ -14,7 +14,7 @@ const Bride = () => {
             <img className='C-1' src={circular} alt="" />
            
            <p className='FontSize' data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">Mrs.Saniya </p>
+     data-aos-anchor-placement="bottom-bottom">Ms.Saniya </p>
             <p data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom"> D/O Sampath Narayana & Rukmini <br />
             Velupalli ,Chithoor Dist. Andhra pradesh.

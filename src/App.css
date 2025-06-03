@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 
 *{
     padding:0;
@@ -151,6 +154,7 @@ body{
     margin-top: -20px;
     height: 100vh;
     width: 100%;
+    font-family: "Oswald", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,10 +167,12 @@ background: radial-gradient(circle, rgba(244, 255, 173, 1) 0%, rgba(245, 203, 76
     width: 500px;
 }
 .Bride_page{
+    margin-top: -30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #f4ffad;
 }
 .Bride_page h4{
     display: flex;
@@ -192,17 +198,20 @@ background: radial-gradient(circle, rgba(244, 255, 173, 1) 0%, rgba(245, 203, 76
     font-size: 20px;
     padding-right: 10px;
     margin-bottom: -30px;
+    color: #634904;
 }
 
 .Bride_page .FontSize{
     font-size: 24px;
     font-weight: 600;
+
 }
 
 /* Quatation */
 .Quation{
     height: 20vh;
     width: 100%;
+    font-family: "Josefin Sans", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -232,6 +241,7 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(173, 102, 2, 1
     height: 60vh;
     width: 100%;
     display: flex;
+    font-family: "Oswald", sans-serif;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -241,6 +251,7 @@ background: linear-gradient(0deg, rgba(253, 187, 45, 1) 0%, rgba(34, 192, 195, 1
 .videos-Container h3{
     margin-top: 50px;  
     font-size: 25px;
+ 
 }
 /* .Video iframe{
     margin-top: 30px;
@@ -263,6 +274,7 @@ background: linear-gradient(0deg, rgba(253, 187, 45, 1) 0%, rgba(34, 192, 195, 1
     height: 100vh;
     width: 100%;
     display: flex;
+    font-family: "Oswald", sans-serif;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -278,6 +290,7 @@ background: linear-gradient(0deg, rgba(34, 192, 195, 1) 0%, rgba(253, 187, 45, 1
     margin-top: 20px;
     font-size: 30px;
     margin-bottom: -50px;
+
 }
 .Add-Location {
     margin-top: 30px;
@@ -317,6 +330,7 @@ background: linear-gradient(0deg, rgba(255, 198, 41, 1) 0%, rgba(253, 187, 45, 1
     align-items: center;
     justify-content: center;
     background: #22C1C3;
+    font-family: "Oswald", sans-serif;
 background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 94%);
 }
 .Gallery{
@@ -337,6 +351,7 @@ background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1
     margin-top: 60px;
     font-size: 30px;
     margin-bottom: -40px;
+
 }
 
 .images img{

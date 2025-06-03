@@ -28,7 +28,9 @@ const WaveformPlayer = ({ audioUrl }) => {
   const handlePlayPause = () => {
     wavesurferRef.current.playPause();
     setIsPlaying(prev => !prev);
-  };
+
+}
+   
 
   return (
     <div>
@@ -37,7 +39,7 @@ const WaveformPlayer = ({ audioUrl }) => {
   
   <div className="Wave-button">
   <button className='button' onClick={handlePlayPause}>
-      {isPlaying ? '⏸' : '▶'}
+      {isPlaying ? '⏸' : '▶' }
     </button>
   </div>
   </div>

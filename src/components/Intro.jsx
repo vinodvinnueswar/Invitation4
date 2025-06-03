@@ -48,7 +48,7 @@ const Intro = () => {
       <div className="Border">
         <img src={Border} alt="" />
        </div>
-       <Audio audioUrl={AudioFile} controls autoPlay/>
+       <Audio audioUrl={AudioFile}/>
      
     </div>
   )
