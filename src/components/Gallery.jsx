@@ -44,8 +44,8 @@ const Gallery = () => {
           
   return (
     <div className="Gallery_Container" >  
-    <h4>Gallery</h4> 
-    <img src={Border4} alt="" />
+    <h4 data-aos="fade-up">Gallery</h4> 
+    <img src={Border4} alt="" data-aos="fade-up"/>
     <div className="Gallery" data-aos="fade-up"
      data-aos-duration="3000">
         {

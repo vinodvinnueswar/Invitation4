@@ -4,9 +4,9 @@ import ReactPlayer from 'react-player'
 
 const Video = () => {
   return (
-    <div className="videos-Container" >
-        <h3>Video</h3>
-        <img src={Border4} alt="" />
+    <div className="videos-Container"  >
+        <h3 data-aos="fade-up">Video</h3>
+        <img src={Border4} alt="" data-aos="fade-up" />
         <div className="Video" data-aos="fade-up"
      data-aos-duration="3000">
           <ReactPlayer  className='video'
