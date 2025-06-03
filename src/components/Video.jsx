@@ -11,8 +11,8 @@ const Video = () => {
      data-aos-duration="3000">
           <ReactPlayer  className='video'
            url='https://youtu.be/esHzbNvsLvI?si=yShRYSp9rmG9CK9z'
-            width='450px'
-           height='250px'
+            width='320px'
+           height='210px'
         
             />
         </div>
