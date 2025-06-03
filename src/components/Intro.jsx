@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useRef , useState , useEffect } from 'react'
 import BG from '../Images/Bg/BG3.jpg'
 import floral from '../Images/Floral/flower7.png'
 import floral8 from '../Images/Floral/flower8.png'
@@ -7,13 +7,17 @@ import floral10 from '../Images/Floral/floral6.png'
 import Border from  '../Images/Border/Border.png'
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import Audio from '../components/Audio'
+import AudioFile from '../audio/Music1.mp3'
+
+
 
 
 const Intro = () => {
 
   useEffect(()=>{
     Aos.init({duration:2000})
-  },[])
+  },[]);
 
   return (
     <div className="Intro_Container">
@@ -44,7 +48,7 @@ const Intro = () => {
       <div className="Border">
         <img src={Border} alt="" />
        </div>
-
+       <Audio audioUrl={AudioFile} controls autoPlay/>
      
     </div>
   )

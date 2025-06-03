@@ -70,8 +70,8 @@ body{
 
 .Br_Gr img{
     margin-top: -40px;
-    height: 400px;
-    width: 220px;
+    height: 300px;
+    width: 200px;
 }
 .names {
     margin-top: -700px;
@@ -95,20 +95,20 @@ body{
     color: #730432a8;
 }
 .floral10{
-    margin-top: -530px;
+    margin-top: -430px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .floral10 img{
     margin-top: 80px;
-    height: 560px;
-    width: 560px;
+    height: 460px;
+    width: 460px;
     padding-left: 15px;
 }
 .Border{
  height: 100vh;
- margin-top: -789px;
+ margin-top: -710px;
 }
 .Border img{
     margin-top: -40px;
@@ -116,9 +116,39 @@ body{
     width: 720px;
 }
 
+/* Audio tag */
+/* CSS for basic styling */
+
+ .Wave-Player{
+    margin-top: -100px;
+    height: 100%;
+    width: 20%;
+    margin-left: 300px;
+
+}
+.Wave-button{
+    margin-top: 50px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 260px;
+
+}
+ .Wave-button .button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: #a67f16;
+    color: white;
+} 
+
+
 /* Bride */
 .Bride_Container{
-    margin-top: -50px;
+    margin-top: -20px;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -506,6 +536,33 @@ color: wheat;
     height: 150px;
     width: 380px;
 }
+
+
+/* Audio Player */
+.Wave-Player{
+    margin-top: -100px;
+    height: 100%;
+    width: 20%;
+    margin-left: 160px;
+
+}
+.Wave-button{
+    margin-top: 30px;
+    height: 200%;
+    width: 20%;
+    margin-left: 160px;
+
+}
+ .Wave-button .button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: #a67f16;
+    color: white;
+    border: white;
+} 
+
+
 
 /* Bride */
 .Bride_Container{
@@ -916,6 +973,35 @@ color: wheat;
         height: 150px;
         width: 380px;
     }
+
+/* Audio Player */
+.Wave-Player{
+    margin-top: -100px;
+    height: 100%;
+    width: 20%;
+    margin-left: 150px;
+
+}
+.Wave-button{
+    margin-top: 30px;
+    height: 200%;
+    width: 20%;
+    margin-left: 150px;
+
+}
+ .Wave-button .button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: #a67f16;
+    color: white;
+    border: white;
+} 
+
+
+
+
+
     
     /* Bride */
     .Bride_Container{
@@ -1327,6 +1413,34 @@ background: radial-gradient(circle, rgba(166, 127, 22, 1) 25%, rgba(253, 187, 45
         width: 400px;
     }
     
+
+/* Audio Player */
+.Wave-Player{
+    margin-top: -100px;
+    height: 100%;
+    width: 20%;
+    margin-left: 160px;
+
+}
+.Wave-button{
+    margin-top: 30px;
+    height: 200%;
+    width: 20%;
+    margin-left: 160px;
+
+}
+ .Wave-button .button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: #a67f16;
+    color: white;
+    border: white;
+} 
+
+
+
+    
     /* Bride */
     .Bride_Container{
         margin-top: -20px;
@@ -1733,6 +1847,33 @@ background: radial-gradient(circle, rgba(166, 127, 22, 1) 25%, rgba(253, 187, 45
             height: 150px;
             width: 480px;
         }
+
+
+/* Audio Player */
+.Wave-Player{
+    margin-top: -100px;
+    height: 100%;
+    width: 20%;
+    margin-left: 170px;
+
+}
+.Wave-button{
+    margin-top: 30px;
+    height: 200%;
+    width: 20%;
+    margin-left: 170px;
+
+}
+ .Wave-button .button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: #a67f16;
+    color: white;
+    border: white;
+} 
+
+
         
         /* Bride */
         .Bride_Container{
