@@ -2207,3 +2207,34 @@ background: radial-gradient(circle, rgba(166, 127, 22, 1) 25%, rgba(253, 187, 45
 }
 
 
+
+/* Hide the entire app in landscape mode */
+@media screen and (orientation: landscape) {
+    #root {
+      display: none;
+    }
+  
+    .landscape-warning {
+      display: block;
+      color: #2A7B9B;
+    }
+  }
+  
+  @media screen and (orientation: portrait) {
+    .landscape-warning {
+      display: none;
+      color: #2A7B9B;
+    }
+  }
+  
+  /* Hide the entire app in landscape mode */
+  @media screen and (min-width:768px) {
+    #root {
+      display: none;
+     background-color: #2A7B9B;
+    }
+  
+    .landscape-warning {
+      display: block;
+    }
+  }
