@@ -2,6 +2,7 @@ import React from 'react'
 import facebook from '../Images/Social_network/Facebook.png'
 import Instagram from '../Images/Social_network/Instagram.png'
 import whatsapp from '../Images/Social_network/Whatsapp1.png'
+import Share from './Share'
 
 const Contacts = () => {
   return (
@@ -10,7 +11,10 @@ const Contacts = () => {
                     <h3>Thank You for Visting</h3>
                 </div>
                 <h3>Social Share</h3>
-           <div className="network">
+
+              <Share/>
+
+           {/* <div className="network">
            <div className="facebook">
                 <img src={facebook} alt="" />
             </div>
@@ -20,7 +24,7 @@ const Contacts = () => {
             <div className="whatsapp">
                 <img src={whatsapp} alt="" />
             </div>
-           </div>
+           </div> */}
             <div className="details_1">
                 <img src="" alt="" />
                 <p className='p1'>InviteDigitly Online</p>
