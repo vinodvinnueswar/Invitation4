@@ -34,7 +34,7 @@ const Share = () => {
 
     <div className='Share'>
     <ShareSocial 
-     url ="http://localhost:5173/" 
+     url ="https://invitation4-mu.vercel.app/" 
      socialTypes={['facebook','telegram','whatsapp','twitter']}
      style={style}
    />
