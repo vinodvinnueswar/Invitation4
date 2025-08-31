@@ -2216,31 +2216,52 @@ background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1
 
 /* Hide the entire app in landscape mode */
 @media screen and (orientation: landscape) {
-    #root {
-      display: none;
+    body {
+        overflow: hidden;
+        height: 100vh;
     }
-  
+     
+    .Main_Container,
+    .Nav_Bar_Container,
+    .desgin_Container,
+    .Our_Collections_Container {
+      display: none; /* or simplified fallback */
+    }
     .landscape-warning {
       display: block;
       color: #2A7B9B;
     }
   }
   
-  @media screen and (orientation: portrait) {
-    .landscape-warning {
-      display: none;
-      color: #2A7B9B;
-    }
-  }
-  
-  /* Hide the entire app in landscape mode */
-  @media screen and (min-width:768px) {
-    #root {
-      display: none;
-     background-color: #2A7B9B;
+  /* Block landscape mode */
+@media screen and (orientation: landscape) {
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-size: 20px;
+      background: #000;
+      color: #fff;
     }
   
-    .landscape-warning {
+    body * {
+      display: none; /* hide content */
+    }
+  
+    body::before {
+      content: "Only For Mobile screens & portrait mode 📱";
       display: block;
     }
   }
+
+  /* Restrict content above 1300px */
+@media screen and (min-width: 1300px) {
+    body {
+      max-width: 1300px;
+      margin: 0 auto;   /* center content */
+      overflow-x: hidden;
+    }
+  }
+  
+  
